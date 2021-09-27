@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:wght@100;400&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/spacing.css">
+    <link rel="stylesheet" href="../../css/typography.css">
+    <link rel="stylesheet" href="../../css/buttons-forms.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <!-----------------------------HEADER------------------------->
+    <header class="header flex-row align-center justify-between mb-5">
+        <img class="logo" src="../../assets/logo-dark.svg" alt="logo">
+        <nav class="header__nav">
+            <ul class="header__list flex-row">
+                <li class="mr-4">
+                    <a class="header__link" href="../home/index.html">HOME</a>
+                </li>
+                <li class="mr-4">
+                    <a class="header__link" href="../portfolio/index.html">PORTFOLIO</a>
+                </li>
+                <li class="mr-4">
+                    <a class="header__link header__link__focus" href="../contato/index.html">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-----------------------------BODY------------------------->
+    <div class="flex-column align-center justify-center mb-6">
+        <div class="contato pt-5 pb-5 mb-5">
+            <div class="contato-description flex-row two-columns align-start justify-center">
+                <h2 class="h2">Entre em Contato</h2>
+                <div>
+                    <p class="body1 mb-5">
+                        Eu adoraria escutar sobre seu trabalho atual e como eu poderia ajudar. Atualmente estou
+                        procurando por um cargo e aberto para várias oportunidades. Minha preferência é uma oportunidade
+                        em uma empresa Britânica. Mas também estou feliz em escutar sobre oportunidades remotas. Sou uma
+                        pessoa trabalhadora e positiva que sempre fará as tasks com um senso de propósito e atenção aos
+                        detalhes. Fique livre para checar meu perfis abaixo e entrar em contato utilizando o formulário.
+                    </p>
+                    <ul class="social-media flex-row">
+                        <li>
+                            <a href="http://www.github.com">
+                                <img class="mr-3" src="../../assets/icons/github-dark.svg" alt="github-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="htttp://www.twitter.com">
+                                <img class="mr-3" src="../../assets/icons/twitter-dark.svg" alt="twitter-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.linkedin.com">
+                                <img class="mr-10" src="../../assets/icons/linkedin-dark.svg" alt="linkedin-icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="contato-form flex-row two-columns align-start justify-between">
+
+            <h2 class="h2">Contato</h2>
+            <form id="contato">
+                <div class="dados flex-column mb-3">
+                    <label class="label mb-1" for="name">Nome</label>
+                    <input class="input" type="text" id="name">
+                </div>
+                <div class="dados flex-column mb-3">
+                    <label class="label mb-1" for="email">E-mail</label>
+                    <input class="input" type="text" id="email">
+                </div>
+                <div class="dados flex-column mb-2">
+                    <label class="label mb-1" for="mensagem">Mensagem</label>
+                    <textarea class="text-area" name="" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn-sec2 mb-4" form="contato">
+                    ENVIAR
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-----------------------------FOOTER------------------------->
+
+
+
+    <footer class="footer flex-row justify-between align-center">
+        <div class=" flex-row align-center">
+            <img class="ml-8" src="../../assets/logo-light.svg" alt="logo">
+            <nav>
+                <ul class="footer__nav flex-row">
+                    <li class="ml-4"><a href="../home/index.html">HOME</a></li>
+                    <li class="ml-4"><a href="../portfolio/index.html">PORFOLIO</a></li>
+                    <li class="ml-4"><a href="../contato/index.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <ul class="social-media flex-row">
+            <li>
+                <a href="http://github.com">
+                    <img class="mr-3" src="../../assets/icons/github-light.svg" alt="github-icon">
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com">
+                    <img class="mr-3" src="../../assets/icons/twitter-light.svg" alt="twitter-icon">
+                </a>
+            </li>
+            <li>
+                <a href="http://linkedin.com">
+                    <img class="mr-10" src="../../assets/icons/linkedin-light.svg" alt="linkedin-icon">
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>
