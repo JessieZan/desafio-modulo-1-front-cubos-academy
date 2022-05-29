@@ -2,9 +2,10 @@
   "name": "desafio-1-frontend",
   "version": "1.0.0",
   "description": "![](https://i.imgur.com/xG74tOh.png)",
-  "main": "index.js",
+  "main": "./home/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "run ./home/index.html"
   },
   "author": "",
   "license": "ISC"
